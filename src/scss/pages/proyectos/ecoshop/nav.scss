@@ -1,0 +1,78 @@
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.remanso-info{
+    background: #D9D8D6;
+}
+
+.remanso-info__contact{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        p{
+            color: #000;
+            font-size: 12px;
+            line-height: 13px;
+        }
+    }
+
+    &__location{
+        p{
+            width: 165px;
+        }
+    }
+
+    &__whatsapp{
+        p{
+            font-size: 15px;
+            line-height: 13px;
+        }
+    }
+
+    &__mail{
+        p{
+            font-size: 15px;
+            line-height: 13px;
+        }
+    }
+}
+.remanso-nav{
+    background: #266041;
+}
+.remanso-nav__pages{
+    ul{
+        height: 50px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        list-style: none;
+
+        &:hover{
+            transform: scale(1.2);
+
+        }
+    }
+    a{
+        text-decoration: none; 
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+    
+}

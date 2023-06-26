@@ -1,0 +1,49 @@
+.remanso-informacion-club{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+
+    &__title{
+        h2{
+            color: #789C4A;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+    &__text{
+        color: #000;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    &__details{
+        display: flex;
+        justify-content: center;
+        gap: 21px;
+        margin-top: 42px;
+        p{
+            color: #FFF;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            background: #789C4A;
+            padding: 9px 14px;
+            width: fit-content;
+            border-radius: 10px;
+            margin: 0 auto;
+            span{
+                font-size: 15px;
+                line-height: 17px;
+            }
+        }
+        h3{
+            color: #266041;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+}
+

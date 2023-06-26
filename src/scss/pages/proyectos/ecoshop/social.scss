@@ -1,0 +1,15 @@
+.remanso-social{
+    position: fixed;
+    bottom: 4%;
+    right: 0;
+    z-index: 50;
+    border-radius: 15px 0px 0px 10px;
+    background: #D9D8D6;
+    padding: 14px 14px;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+}

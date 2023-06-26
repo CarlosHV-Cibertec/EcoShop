@@ -1,0 +1,30 @@
+section.remanso-info
+    .remanso-info__contact.container
+        .remanso-info__contact__logo
+            +mx_picture_retina_oneimg('', img_path+'/logo-remanso', 'png', 'Logo Remanso')
+        .remanso-info__contact__details
+            .remanso-info__contact__location.flex-item
+                .remanso-info__contact__img
+                    +mx_picture_retina_oneimg('', img_path+'/icon-location', 'png', 'Icono Localización')
+                .remanso-info__contact__text
+                    p Jr. Los Gladiolos Nº 287 Urb. Los Huertos de Tungasuca, Comas
+            .remanso-info__contact__whatsapp.flex-item
+                .remanso-info__contact__img
+                    +mx_picture_retina_oneimg('', img_path+'/icon-whatsapp', 'png', 'Icono Whatsapp')
+                .remanso-info__contact__text
+                    p 993-120-834
+            .remanso-info__contact__mail.flex-item
+                .remanso-info__contact__img
+                    +mx_picture_retina_oneimg('', img_path+'/icon-mail', 'png', 'Icono Correo')
+                .remanso-info__contact__text
+                    p info@elremanso.com.pe
+section.remanso-nav
+    nav.remanso-nav__pages.container.cf
+        ul
+            li #[a(href="./index.html") Inicio]
+            li #[a(href="./src/pages/Acerca.html") Acerca]
+            li #[a(href="./src/pages/Novedades.html") Novedades]
+            li #[a(href="./src/pages/Infraestructura.html") Infraestructura]
+            li #[a(href="./src/pages/Servicios.html") Servicios]
+            li #[a(href="./src/pages/Informacion.html") Información]
+            li #[a(href="./src/pages/") Contactanos]

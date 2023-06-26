@@ -1,0 +1,52 @@
+.remanso-comments{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+
+.remanso-comments__person{
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(120, 156, 74, 0.64);
+    padding: 24px 18px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.53);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.53);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.53);
+
+    h3{
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .remanso-comments{
+        &__text{
+            color: #FFF;
+            text-align: center;
+            font-size: 14px;
+            line-height: 13px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 14px;
+        }
+        &__name{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 13px;
+            text-align: center;
+            
+        }
+        &__dni{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 13px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+}
