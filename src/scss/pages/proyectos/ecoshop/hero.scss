@@ -1,8 +1,42 @@
-.remanso-hero{
+.digital-tech-hero{
     margin-top: 130px;
+    position: relative;
+    z-index: 1;
 }
 .slick-slide{
     img{
         width: 100%;
     }
+}
+
+.slick-prev{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    // background-color: red;
+    border: 0;
+    color: #F0F2F2;
+    border-bottom: 3px solid #6FBFBF;
+    border-left: 3px solid #6FBFBF;
+    transform: translate(-1045%,-50%) rotate(45deg);
+}
+
+.slick-next{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    right: 50%;
+    top: 50%;
+    // background-color: red;
+    border: 0;
+    color: #F0F2F2;
+    border-bottom: 3px solid #6FBFBF;
+    border-right: 3px solid #6FBFBF;
+    transform: translate(1045%,-50%) rotate(-45deg);
 }

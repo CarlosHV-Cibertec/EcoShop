@@ -4,11 +4,11 @@
     align-items: center;
     gap: 6px;
 }
-.remanso-info{
-    background: #D9D8D6;
+.digital-tech-info{
+    background: #010326;
 }
 
-.remanso-info__contact{
+.digital-tech-info__contact{
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,10 @@
 
     &__location{
         p{
-            width: 165px;
+            color: #FFF;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
         }
     }
 
@@ -46,10 +49,10 @@
         }
     }
 }
-.remanso-nav{
-    background: #266041;
+.digital-tech-nav{
+    background: #6FBFBF;
 }
-.remanso-nav__pages{
+.digital-tech-nav__pages{
     ul{
         height: 50px;
         margin: 0;
@@ -73,6 +76,11 @@
         font-weight: 700;
         line-height: 12px;
         text-transform: uppercase;
+
+        &:hover{
+            color: #010326;
+            transform: scale(1.2);        
+        }
     }
     
 }
